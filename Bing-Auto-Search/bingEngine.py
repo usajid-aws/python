@@ -11,7 +11,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from random import randint
-Edge = webdriver.Edge("C:/Users/usana/Desktop/Extra C/python/MicrosoftWebDriver.exe")
+Edge = webdriver.Edge("add File location for web Driver here")
 Edge.get("https://www.bing.com")
 textfile = open("words.txt", "r")
 wordList = textfile.readlines()
